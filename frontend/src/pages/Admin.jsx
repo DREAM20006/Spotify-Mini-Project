@@ -70,7 +70,7 @@ const Admin = () => {
     <div className="min-h-screen bg-[#212121] text-white p-8">
       <Link
         to="/"
-        className="bg-green-500 text-white font-bold py-2 px-4 rounded-full"
+        className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full"
       >
         Go to home page
       </Link>
@@ -214,7 +214,7 @@ const Admin = () => {
                     <input type="file" onChange={fileChangeHandler} />
                     <button
                       onClick={() => addThumbnailHandler(e._id)}
-                      className="bg-green-500 text-white px-2 py-1 rounded"
+                      className="bg-orange-500 text-white px-2 py-1 rounded"
                     >
                       Add Thumbnail
                     </button>
